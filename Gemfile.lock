@@ -57,6 +57,9 @@ GEM
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
     awesome_print (1.8.0)
+    bootstrap_form (4.5.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     builder (3.2.4)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
@@ -135,6 +138,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  bootstrap_form (~> 4.5)
   hirb
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.1)
